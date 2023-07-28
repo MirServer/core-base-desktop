@@ -12,6 +12,7 @@ fi
 
 export XDG_CURRENT_DESKTOP=ubuntu:GNOME
 export GSETTINGS_BACKEND=keyfile
+export MOZ_ENABLE_WAYLAND=1
 
 dbus-update-activation-environment --systemd --all
 
